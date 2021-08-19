@@ -22,7 +22,7 @@ resource "aws_s3_bucket_object" "object" {
 
   bucket = aws_s3_bucket.b10.id
 
-  key = "profile"
+  key = "profile/data/func.csv"
 
   acl = "private" # or can be "public-read"
 
