@@ -20,7 +20,7 @@ resource "aws_s3_bucket" "b10" {
 #Crio um objeto e atrelo ao bucket que eu criei e coloco etag para caso ele veja que o md5 mudou caso o contrário ele sobre
 resource "aws_s3_bucket_object" "object" {
 
-  bucket = aws_s3_bucket.b1.id
+  bucket = aws_s3_bucket.b10.id
 
   key = "profile"
 
