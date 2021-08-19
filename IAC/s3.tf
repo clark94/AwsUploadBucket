@@ -1,5 +1,5 @@
-resource "aws_s3_bucket" "b1" {
-  bucket = "s3-terraform-bucket-lab"
+resource "aws_s3_bucket" "b10" {
+  bucket = "s3-terraform-bucket-lab-1"
   acl    = "private"
 
   tags = {
