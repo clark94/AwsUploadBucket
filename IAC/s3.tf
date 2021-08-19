@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b10" {
-  bucket = "s3-terraform-bucket-lab-1"
+  bucket = "s3-terraform-bucket-lab-clarkshark"
   acl    = "private"
 
   tags = {
